@@ -1,7 +1,7 @@
 function analyse_receptive_field(stimID_filename,neuropix) % eg. stimID_filename = 'M230322_A_MS_230322'
 
 % Add necessary filepaths
-addpath('S:\cortical_dynamics\Shared\Code\matlib\IO\');
+addpath('X:\cortical_dynamics\Shared\Code\matlib\IO\');
 
 % Find files to load
 startingfolder = 'C:\SGL_DATA\';
@@ -23,8 +23,8 @@ end
 
 %stimIDfile = 'S:\cortical_dynamics\User\ms1121\Code\Psychopy\rec_map_stimID.csv';
 %stimDetfile = 'S:\cortical_dynamics\User\ms1121\Code\Psychopy\rec_map_stim_details.csv';
-stimIDfile = ['S:\cortical_dynamics\User\ms1121\Code\Psychopy\rec_map_stimID_' stimID_filename '.csv'];
-stimDetfile = ['S:\cortical_dynamics\User\ms1121\Code\Psychopy\rec_map_stim_details_' stimID_filename '.csv'];
+stimIDfile = ['X:\cortical_dynamics\User\ms1121\Code\Psychopy\rec_map_stimID_' stimID_filename '.csv'];
+stimDetfile = ['X:\cortical_dynamics\User\ms1121\Code\Psychopy\rec_map_stim_details_' stimID_filename '.csv'];
 vStimSR = 9057.971014;
 stim_length = 1000; 
 buffer = 1500;

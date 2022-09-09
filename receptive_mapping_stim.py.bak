@@ -28,8 +28,8 @@ def run_receptive_mapping(filename):
         return(coord_pos_1,coord_pos_2)
 
     # Set experimental parameters
-    stimID_filepath = 'S:/cortical_dynamics/User/ms1121/Code/Psychopy/rec_map_stimID_' + filename + '.csv'
-    stim_details_filepath = 'S:/cortical_dynamics/User/ms1121/Code/Psychopy/rec_map_stim_details_' + filename + '.csv'
+    stimID_filepath = 'X:/cortical_dynamics/User/ms1121/Code/Psychopy/rec_map_stimID_' + filename + '.csv'
+    stim_details_filepath = 'X:/cortical_dynamics/User/ms1121/Code/Psychopy/rec_map_stim_details_' + filename + '.csv'
     trial_length = 1 # trial length in seconds
     gap_length = 1.5 # gap length between stimuli in seconds
     switch_freq = 4 # frequency of alternating tile colours (Hz)

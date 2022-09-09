@@ -47,8 +47,8 @@ def run_visual_grating(filename,x_coord,y_coord):
     mon.setSizePix(screen_size)
 
     # Set experimental parameters
-    trial_IDs_filepath = 'S:/cortical_dynamics/User/ms1121/Code/Psychopy/trial_IDs_' + filename + '.csv'
-    stim_details_filepath = 'S:/cortical_dynamics/User/ms1121/Code/Psychopy/stim_details_' + filename +'.csv'
+    trial_IDs_filepath = 'X:/cortical_dynamics/User/ms1121/Code/Psychopy/trial_IDs_' + filename + '.csv'
+    stim_details_filepath = 'X:/cortical_dynamics/User/ms1121/Code/Psychopy/stim_details_' + filename +'.csv'
     stim_length = 1 # time of stimuli in seconds
     gap_length = 1.5 # gap time between stimuli in seconds
     spat_freq = 0.04 # spatial frequency of grating (cycles per degree)
